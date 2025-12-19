@@ -23,13 +23,13 @@ const formats = {
     year: "numeric"
   },
   medium: {
-    hour: "2-digit",
-    minute: "numeric",
-    second: "2-digit",
     weekday: "short",
     day: "2-digit",
     month: "short",
     year: "numeric",
+    hour: "2-digit",
+    minute: "numeric",
+    second: "2-digit"
   },
   full: {
     weekday: "long",
