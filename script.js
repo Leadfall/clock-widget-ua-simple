@@ -51,11 +51,11 @@ const formatter = new Intl.DateTimeFormat(
 // ==========================
 // 4. Оновлення часу
 // ==========================
-const clockElement = document.getElementById("clock");
+const timeLabelElement = document.getElementById("timeLabel");
 
-function updateClock() {
-  clockElement.textContent = formatter.format(new Date());
+function updatetimeLabel() {
+  timeLabelElement.textContent = formatter.format(new Date());
 }
 
-updateClock();
-setInterval(updateClock, 1000);
+updatetimeLabel();
+setInterval(updatetimeLabel, 1000);
