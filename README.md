@@ -13,5 +13,5 @@ https://leadfall.github.io/clock-widget-ua-simple/?lang=en
 | пʼятниця, 19 грудня 2025 р. о 18:49:36 | full | [**Натисніть тут**](https://leadfall.github.io/clock-widget-ua-simple/?format=full) |
 <br/>
 
->Стара версія цього віджета *(але з гнучкою кастомізацією)*:<br/>
+>Стара форкнута версія цього віджета *(але з гнучкою кастомізацією)*:<br/>
 >https://github.com/Leadfall/clock-widget-ua
