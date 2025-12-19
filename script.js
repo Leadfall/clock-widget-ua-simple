@@ -3,7 +3,7 @@
 // ==========================
 const params = new URLSearchParams(window.location.search);
 const lang = params.get("lang") || "uk";
-const format = params.get("format") || "medium";
+const format = params.get("format") || "default";
 const showSeconds = params.get("seconds") !== "false";
 const timezone = params.get("timezone") || "Europe/Kyiv";
 
@@ -14,6 +14,15 @@ const hour12 = hourParam === "12";
 // 2. Формати відображення
 // ==========================
 const formats = {
+  default: {
+    day: "2-digit",
+    month: "2-digit",
+    year: "numeric",
+    hour: "2-digit",
+    minute: "2-digit",
+    second: "2-digit",
+    hour12: hour12
+  },
   time: {
     hour: "2-digit",
     minute: "2-digit",
